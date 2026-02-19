@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+  background-image: url(glassmo.png);
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+textarea {
+  width: 90%;
+  max-width: 500px;   /* ancho máximo */
+  height: 200px;
+  padding: 10px;
+  margin: auto;  /* centra horizontalmente */
+  display: block;     /* necesario para que margin auto funcione */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: vertical;
+}
+button {
+  background: linear-gradient(135deg, #A2DFF7, #0077b6);
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin: -10px auto;   /* centra horizontalmente */
+  display: block;      /* necesario para que margin auto funcione */
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin: 40px auto;
+  display: block; 
+}
